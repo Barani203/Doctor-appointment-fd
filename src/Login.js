@@ -24,14 +24,14 @@ function Login() {
         <div className="col-sm-5">
           <form>
             <div data-mdb-input-init class="form-outline mb-4">
-              <input type="email" id="form2Example1" class="form-control" />
+              <input type="email" id="form2Example1" class="form-control" placeholder="Email" />
               <label class="form-label" for="form2Example1">
                 Email address
               </label>
             </div>
 
             <div data-mdb-input-init class="form-outline mb-1">
-              <input type="password" id="form2Example2" class="form-control" />
+              <input type="password" id="form2Example2" class="form-control" placeholder="Password" />
               <label class="form-label" for="form2Example2">
                 Password
               </label>
