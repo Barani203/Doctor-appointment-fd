@@ -6,10 +6,10 @@ function Home() {
     <>
       <div className="container-fluid pb-2">
         <div className="row" id="navbarback">
-          <div className="col-sm-10 d-flex  mt-1 mb-4">
+          <div className="col d-flex ">
             <h3 style={{ color: "white" }}> Hi Deepa!</h3>
           </div>
-          <div className="col-sm-1 pr20px d-flex justify-content-end ">
+          <div className="col pr20px d-flex justify-content-end ">
             <img
               className="imgnav"
               src="./img/alert.png"
@@ -17,7 +17,7 @@ function Home() {
               style={{ width: 30 }}
             ></img>
           </div>
-          <div className="col-sm-1 d-flex justify-content-end">
+          <div className="col d-flex justify-content-end">
             <img
               className="imgnav"
               src="./img/notifycation.png"
@@ -26,7 +26,7 @@ function Home() {
           </div>
         </div>
         <div className="row" id="offcircle">
-          <div className="col-xl justify-content-center mt-5">
+          <div className="col justify-content-center mt-5">
             <img src="./img/frame1.png" className="imgframe" alt="frame1"></img>
           </div>
         </div>
@@ -38,19 +38,19 @@ function Home() {
         </div>
 
         <div class="row pt-5">
-          <div class="col-4">
+          <div class="col-lg">
             <img src="./img/doc.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Find a Doctor</h5>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-lg">
             <img src="./img/blood.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Book Labtaast</h5>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-lg">
             <img src="./img/heart.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Heart Tracker</h5>
@@ -86,7 +86,7 @@ function Home() {
         </div>
 
         <div className="row pt-5">
-          <div className="col-4 d-flex justify-content-around">
+          <div className="col-lg d-flex justify-content-around">
             <h4>Quick Access</h4>
           </div>
         </div>
